@@ -1,3 +1,7 @@
+body{
+  padding: 0; //обнуляем отступы 
+  margin: 0;
+}
 header {
   background: url(img/not.jpg) no-repeat center top / cover;
   height: 700px;
