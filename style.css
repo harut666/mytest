@@ -3,6 +3,12 @@ body {
   padding: 0; /*обнуляем отступы*//*отступ внутри контейнера*/
   margin: 0;/*отступы наружу*/
 }
+.clearfix:after{
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
 div {
   box-sizing: border-box; /*для всех див не учитывать паддинг при формировании длинны и высоты*/
 }
@@ -17,4 +23,39 @@ header {
 }
 .logo {
   margin-top: 41px;
+  float: left;/*если элементы в одну строку то ставим их в нужные края*/
+}
+nav {
+  float: right;
+  margin-top: 95px;/*отступ с верху для пунктов*/
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 41px;/*расстояние меж пунктами меню*/
+}
+.menu li a {
+  color: #74746e;
+  text-decoration: none;/*убираем подчеркивание ссылки*/
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.titlts_first {
+  font-size: 40px;
+  color: #74746e;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 350px;
+  margin-left: 630px;
+}
+h1 {
+  font-size: 75px;
+  color: #74746e;
+  text-transform: uppercase;
+  text-align: center;
 }
