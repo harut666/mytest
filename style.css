@@ -2,6 +2,7 @@ body {
   font-family: Arial,sans-serif;
   padding: 0; /*обнуляем отступы*//*отступ внутри контейнера*/
   margin: 0;/*отступы наружу*/
+  color: #222;
 }
 .clearfix:after{
   content: '';
@@ -58,4 +59,73 @@ h1 {
   color: #74746e;
   text-transform: uppercase;
   text-align: center;
+}
+
+
+/*переходим ко второй секции*/
+.title {
+ padding-top: 115px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p {
+  color: #777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.services {
+  margin-top: 80px;
+}
+.services_item {
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+.services_item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.services_item p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.55em;
+}
+.services_item:last-child{
+  float: right;
+}
+.services_item:nth-child(2){
+  margin-left: 60px;
+}
+#ico {
+  width: 40px;
+}
+#services {
+  padding-bottom: 120px;
+}
+
+/*3 section*/
+
+#portf {
+  background: #f7f7f7;
+  padding-bottom: 120px;
+}
+.work{
+  margin-top: 70px;
+}
+.work img{
+  float: left;
+}
+.work img:nth-child(2){
+  margin-left: 58px;
+}
+.work img:last-child{
+  float: right;
 }
