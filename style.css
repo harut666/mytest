@@ -1,9 +1,20 @@
-body{
-  padding: 0; //обнуляем отступы 
-  margin: 0;
+body {
+  font-family: Arial,sans-serif;
+  padding: 0; /*обнуляем отступы*//*отступ внутри контейнера*/
+  margin: 0;/*отступы наружу*/
+}
+div {
+  box-sizing: border-box; /*для всех див не учитывать паддинг при формировании длинны и высоты*/
 }
 header {
   background: url(img/not.jpg) no-repeat center top / cover;
   height: 700px;
 
+}
+.container {
+  width: 930px;
+  margin: 0 auto;/*ставим по центру*/
+}
+.logo {
+  margin-top: 41px;
 }
